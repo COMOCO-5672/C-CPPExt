@@ -21,7 +21,7 @@ inline std::string trim_end(const std::string &str)
     if (pos == std::string::npos)
         return str;
 
-    return str.substr(0, str.length() - pos);
+    return str.substr(0, pos + 1);
 }
 
 // Delete the Spaces at the beginning and end of the string
