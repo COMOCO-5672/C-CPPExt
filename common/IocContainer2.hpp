@@ -1,5 +1,5 @@
 
-// 完整的IOC容器代码
+// 自己实现Any并完成完整的IOC容器代码
 #include <functional>
 #include <iostream>
 #include <map>
