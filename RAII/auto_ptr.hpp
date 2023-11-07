@@ -47,7 +47,7 @@ template <class T> inline T *auto_ptr<T>::operator->() const { return pointee; }
 
 template <class T> inline T *auto_ptr<T>::get() const { return pointee; }
 
-template <class T> inline T *auto_ptr<T>::release()
+template <class T> inline T *auto_ptr<T>::release() const
 {
     T *oldPointee = pointee;
     pointee = 0;
